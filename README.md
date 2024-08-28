@@ -6,4 +6,12 @@ movie_master_pro_app program - The second Python program provides a graphical us
 
 Libraries Used: requests - For sending HTTP requests to fetch HTML content from IMDb pages. BeautifulSoup - For parsing HTML content to extract structured data embedded in the page. re - For using regular expressions to parse movie durations and convert them to a human-readable format. pandas - For creating DataFrames to store the extracted movie details and exporting them to a CSV file. tkinter - For creating the graphical user interface. It provides the main window, frames, labels, buttons, and text widgets for displaying content. ast - For safely evaluating string representations of Python data structures (e.g., converting genre strings back to lists).
 
+App Features
 
+Feature 1 - Users can select a genre from a dynamically generated list of buttons. When a button is clicked, a random movie suggestion from that genre is displayed in the app.
+
+Feature 2 - Displays the top 10 movies sorted by IMDb rating.
+
+Feature 3 - Shows classic movies released before the year 2000, sorted by their release year.
+
+Feature 4 -  Suggests the most recent movies by showing the top 10 latest releases.
