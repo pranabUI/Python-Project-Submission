@@ -1,7 +1,10 @@
 The Movie Master Pro App project is a two-part application developed in Python, combining web scraping, data processing, and a graphical user interface (GUI) to create a dynamic and interactive movie recommendation tool. The project aims to provide users with curated movie suggestions based on genres, IMDb ratings, release years, and other attributes, enhancing the movie-watching experience by making it easier to discover new films.
 
 **imdb_movie_scraper program**
+
+
 The first Python program is designed to build a bot that scrapes data from IMDb to suggest movies based on user preferences. This program specifically scrapes the IMDb Top 250 movies page to extract movie details, including movie names, release years, durations, genres, IMDb ratings, directors, main cast members, plots, and poster URLs. It then stores the scraped data in a CSV file for further use or analysis.
+
 Components:
 1. Using requests and BeautifulSoup to access IMDb's Top 250 movies page and extract detailed movie information such as names, release years, durations, genres, IMDb ratings, directors, top cast members, plots, and poster URLs.
 2. Converting movie durations from ISO 8601 format to a human-readable form and handling missing or malformed data.
@@ -9,7 +12,10 @@ Components:
 4. Implementing error handling to manage potential issues with HTTP requests and JSON parsing, ensuring robustness and reliability.
 
 **movie_master_pro_app program**
+
+
 The second Python program provides a graphical user interface (GUI) for the movie suggestion app using tkinter. It leverages the movie data extracted from IMDb and saved in a CSV file (from the first program) to allow users to explore and select movies based on genres, ratings, release years, and more.
+
 Components:
 1. Reading the previously saved movie_library.csv file into a Pandas DataFrame.
 2. Extracting unique genres from the data and dynamically generating buttons in the GUI for each genre, allowing users to select their preferred genre.
