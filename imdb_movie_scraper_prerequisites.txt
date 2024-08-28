@@ -1,0 +1,22 @@
+Create a Virtual Environment
+
+1. Open Terminal in VS Code:
+
+2. Navigate to Your Project Directory:
+   cd path/to/your/project
+
+3. Create a Virtual Environment:
+   python -m venv venv
+
+4. Activate the Virtual Environment (Windows)
+   .\venv\Scripts\Activate
+
+5. Install Dependencies
+   pip install beautifulsoup4 requests pandas
+
+6. Run Script
+   python imdb_movie_scraper.py
+
+7. Deactivating the Virtual Environment
+   deactivate
+
