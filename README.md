@@ -3,7 +3,7 @@ The Movie Master Pro App project is a two-part application developed in Python, 
 **imdb_movie_scraper program**
 
 
-The first Python program is designed to build a bot that scrapes data from IMDb to suggest movies based on user preferences. This program specifically scrapes the IMDb Top 250 movies page to extract movie details, including movie names, release years, durations, genres, IMDb ratings, directors, main cast members, plots, and poster URLs. It then stores the scraped data in a CSV file for further use or analysis.
+The first Python program is designed to build a bot that scrapes data from IMDb to suggest movies based on user preferences. This program specifically scrapes the IMDb Top 250 movies page to extract movie details, including movie names, release years, durations, genres, IMDb ratings, directors, main cast members and plots. It then stores the scraped data in a CSV file for further use or analysis.
 
 Components:
 1. Using requests and BeautifulSoup to access IMDb's Top 250 movies page and extract detailed movie information such as names, release years, durations, genres, IMDb ratings, directors, top cast members, plots, and poster URLs.
